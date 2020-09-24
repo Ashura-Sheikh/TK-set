@@ -45,16 +45,16 @@ root.geometry("500x600")
 root.title("Compound Interest Calculator")
 
 # creating Principle amount = Label
-label1 = Label(root, text="Principle Amount(EUR) : ", fg='white', bg='green')
+label1 = Label(root, text="Principle Amount(EUR) : ", fg='white', bg='green', padx=5, pady=5)
 
 # creating Rate = Label
-label2 = Label(root, text="Rate(%) : ", fg='white', bg='green')
+label2 = Label(root, text="Rate(%) : ", fg='white', bg='green', padx=5, pady=5)
 
 # Creating Time = Label
-label3 = Label(root, text="Time(years) : ", fg='white', bg='green')
+label3 = Label(root, text="Time(years) : ", fg='white', bg='green', padx=5, pady=5)
 
 # create Compund Interest = Label
-label4 = Label(root, text="Compound Interest : ", fg='white', bg='green')
+label4 = Label(root, text="Compound Interest : ", fg='white', bg='green', padx=5, pady=5)
 
 # using Grid / padx / pady
 
